@@ -1,0 +1,24 @@
+#Here is an alternate config, which is as different as possible to show what you can do. Try this and see the changes. Then you can switch back, keep this one, or make your own.
+
+[config]
+path: /tmp/g15in
+start: True
+end: True
+size: s
+screenwidth: 40
+height: 5
+string: MC 1%newline%PC 0%newline%T%textsize% "'%messagewrapped%' by %nick% in %channel%"%newline%MC 0%newline%
+query: False
+lights: 0
+lighttime: 2
+backlight: True
+backlightnumber: 5
+backlightwait: 0.5
+backlightlevel1: 1
+backlightlevel2: 2
+clearafterhighlight: True
+clearafterhighlighttime: 10
+clearmode: blank
+clearanimationspeed: 0.5
+clearanimation: currentversion
+clearimage: currentversion

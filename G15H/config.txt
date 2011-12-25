@@ -1,0 +1,27 @@
+#Configuration File For G15Highligher
+#You can edit this while the script is loaded and use '/reloadg15prefs' to reload your new settings.
+#For more information, see http://lattyware.co.uk/G15H
+
+[config]
+path: /tmp/g15in
+start: True
+end: True
+size: M
+screenwidth: 31
+height: 6
+string: MC 1%newline%PC 0%newline%T%textsize% "%nick% %channel% %time%" "%messagewrapped%"%newline%PR 0 0 160 %textheight%%newline%MC 0%newline%
+#string: MC 1%newline%PC 0%newline%T%textsize% "'%messagewrapped%' by %nick% in %channel%"%newline%MC 0%newline%
+query: True
+lights: 4
+lighttime: 1
+backlight: True
+backlightnumber: 4
+backlightwait: 0.2
+backlightlevel1: 0
+backlightlevel2: 2
+clearafterhighlight: False
+clearafterhighlighttime: 10
+clearmode: animation
+clearanimationspeed: 0.5
+clearanimation: currentversion
+clearimage: currentversion

@@ -1,0 +1,18 @@
+V2.0 is by far supirior to previous versions. Check the source for more.
+
+This Version: 2.6
+
+Pre-Install:
+Make sure you have xChat installed (There have been reported problems trying to make the plugin work with the xChat-gnome Ubuntu package. Please use the proper xChat package instead.)
+Make sure you have the latest G15Tools up and running. G15Daemon should be running, and you should have a clock on your LCD.
+Python must be installed, and the Python xChat plugin should be installed. Most of the time, this will allready be so.
+
+To Install:
+Extract 'G15H.py' and the 'G15H'' folder into ~/.xchat2 (or whatever your xChat directory is.) and edit the config file in 'G15H' called 'config.txt' to your liking. When you next run xChat, the plugin should automatically load. If it doesn't, then type '/load G15H.py' and it should start the intro animation on your LCD.
+
+To Use:
+Wait until highlighted, and you will see! If you want to clear the lcd, use /lcdclear. If you want to reload the preferences without restarting the plugin, do /reloadg15prefs. That's pretty much it. Have fun playing with the config for different effects and usage.
+
+Have fun.
+Gareth Latty (Lattyware).
+http://lattyware.co.uk/G15H
